@@ -619,6 +619,10 @@
       width: 200px; height: 200px;
     }
 
+    .address-card {
+      grid-column: span 2;
+    }
+
     .detail-icon {
       font-size: 1.8rem;
       min-width: 42px;
@@ -1165,7 +1169,11 @@
       .hero-buttons { flex-direction: column; align-items: center; }
       .btn { padding: 13px 28px; font-size: 1rem; }
       .details-grid { grid-template-columns: 1fr; }
+      .address-card { grid-column: span 1; }
       .family-grid { grid-template-columns: 1fr; }
+      .section-block { padding: 50px 16px; }
+      .kundli-card { padding: 30px 20px; }
+      .hero-name { font-size: 2.2rem; }
     }
 
     /* ============================================================
@@ -1361,7 +1369,7 @@
           </div>
         </div>
 
-        <div class="detail-card reveal" style="grid-column: span 2;">
+        <div class="detail-card reveal address-card">
           <span class="detail-icon">🏡</span>
           <div class="detail-content">
             <div class="detail-label">Current Address</div>
